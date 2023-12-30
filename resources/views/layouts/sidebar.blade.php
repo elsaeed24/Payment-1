@@ -244,7 +244,7 @@
 										<span class="avatar avatar-md brround cover-image" data-image-src="{{URL::asset('assets/img/faces/9.jpg')}}"><span class="avatar-status bg-success"></span></span>
 									</div>
 									<div class="">
-										<div class="font-weight-semibold" data-toggle="modal" data-target="#chatmodel">{{ Auth::user()->name }}</div>
+										<div class="font-weight-semibold" data-toggle="modal" data-target="#chatmodel"></div>
 									</div>
 									<div class="mr-auto">
 										<a href="#" class="btn btn-sm btn-light" data-toggle="modal" data-target="#chatmodel" ><i class="fab fa-facebook-messenger"></i></a>
